@@ -1,0 +1,17 @@
+Interview Questions
+    1. What is an operator?
+        An operator is a symbol that performs an operation on one or more operands.
+
+    2. Difference between / and //?
+        / performs normal division and returns a float.
+        // performs floor division and returns the floor of the quotient.
+
+    3. Difference between == and is?
+        == compares values.
+        is checks whether two variables refer to the same object in memory.
+    
+    4. What is the % operator used for?
+        It returns the remainder after division. It's commonly used to check if a number is even or odd.
+
+    5. What is operator precedence?
+        It is the order in which Python evaluates operators in an expression. Parentheses have the highest priority.
