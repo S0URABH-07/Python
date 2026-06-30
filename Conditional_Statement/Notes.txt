@@ -1,0 +1,18 @@
+Conditional Statements (if, elif, else)
+What is a Conditional Statement?
+        A conditional statement allows a program to make decisions.
+
+If Statement:-
+        Condition
+            │
+            ▼
+        Is condition True?
+        /      \
+        Yes      No
+        │          │
+        Execute   Skip
+                This all operators used in conditions:- 
+                        == , != ,> ,< ,>= ,<=
+If ... else
+        Use this when there are two possible outcomes.
+        
