@@ -1,0 +1,16 @@
+Interview Questions
+    1. What is a data type?
+            A data type defines the kind of value stored in a variable and the operations that can be performed on it.
+
+    2. Difference between int and float?
+            int stores whole numbers.float stores decimal numbers.
+
+    3. Difference between "25" and 25?
+            "25" is a string.25 is an integer.
+
+    4. What is None?
+            None is a special value that represents "no value" or "nothing."
+
+    5. Difference between implicit and explicit type conversion?
+            Implicit: Python converts types automatically (e.g., 10 + 5.5).
+            Explicit: You convert types yourself using functions like int(), float(), or str().
