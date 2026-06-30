@@ -15,4 +15,6 @@ If Statement:-
                         == , != ,> ,< ,>= ,<=
 If ... else
         Use this when there are two possible outcomes.
-        
+
+if...elif...else
+        Used when there are multiple conditions.
