@@ -1,0 +1,25 @@
+What is a Data Type?
+        A data type tells Python: What kind of value is stored. What operations can be performed on it.How much memory is needed (handled internally by Python).
+
+Python Built-in Data Types:- 
+        Python has many data types.
+            1. Numeric Types ->
+                    int , float , complex ->>age = 20 , cgpa = 8.45 , z = 4 + 5j
+
+            2. Sequence Types->
+                    str , list , tuple , range
+            
+            3. Mapping Type->
+                    dict
+            
+            4. Set Types ->
+                    set , frozenset
+            
+            5. Boolean ->
+                    Bool
+            
+            6. Binary Types->
+                    bytes ,bytearray ,memoryview
+            
+            7. None Type-> 
+                    NoneType
