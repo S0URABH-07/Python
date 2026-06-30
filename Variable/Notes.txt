@@ -1,0 +1,24 @@
+What is a Variable?
+        Imagine you have a box. You put something inside the box.Now you give the box a name.
+        Whenever you need that thing, you simply use the box's name.That box is called a Variable.
+    box name = age
+    inside box = 25
+            Answer:-  age = 25
+                     Student Name : Rahul
+                     Roll Number : 101
+                     CGPA : 8.9
+        a = b = c = 100
+
+    checking Variable type :-
+                age = 22
+                print(type(age))
+
+Rules :- 
+    letter:-  name = sourabh
+    underscore:- _name = sourabh
+
+        wrong:- 1name = syntexerror
+    Not allow special character
+    Space are not allowed
+    Python keywords cannot be variable name 
+    Python treats uppercase and lowercase as different variables
