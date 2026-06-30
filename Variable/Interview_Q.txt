@@ -1,0 +1,13 @@
+Interview Questions
+    Q1. What is a variable?
+        A variable is a named reference used to store a value in memory so it can be reused and updated in a program.
+
+    Q2. Why is Python called dynamically typed?
+        Because you don't need to declare a variable's type explicitly. Python determines it automatically at runtime.
+
+    Q3. Difference between = and ==?
+        = assigns a value.
+        == checks whether two values are equal.
+        
+    Q4. Is Python case-sensitive?
+        Yes. age, Age, and AGE are three different variable names.
