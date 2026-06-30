@@ -1,0 +1,41 @@
+What is an Operator?
+        An operator is a special symbol that performs an operation on one or more values (called operands).
+
+    1️⃣ Arithmetic Operators :-
+            + , - , * , / 
+            // -> Returns only the integer part
+            % -> Returns the remainder
+            ** -> Power operator 
+    2️⃣ Assignment Operators :- These assign values to variables
+        x = 10
+            x = x + 5 or x += 5 ->>> 15
+            x = x - 5 or x -= 5 ->>> 5
+            x = x * 5 or x *= 5 ->>> 50
+            x = x / 5 or x /= 5 ->>> 2
+            13 // 5 ->>> 2
+            13 % 5 ->>> 3
+            3 ** 3 ->>> 27
+    
+    3️⃣ Comparison Operators :- Comparison operators always return a Boolean (True or False)
+            (10 == 10) --> True
+            (10 != 10) --> False
+            (10 > 5)   --> True
+            (100 < 4)  --> False
+            (100 >= 150)-> False
+            (99 <= 99) --> True
+    
+    4️⃣ Logical Operators:- Used to combine multiple conditions. 
+        There are only three logical operators.
+            AND(and) -> Returns True only if both conditions are true.
+            OR(or) -> Returns True if at least one condition is true.
+            NOT(not)-> Reverses the Boolean value.
+
+    5️⃣ Identity Operators:- Identity operators check whether two variables refer to the same object in memory, not just whether they have equal values.
+            is -> Both variables refer to the same list object.
+            is not -> The values are equal, but they are different objects in memory.
+    
+    6️⃣ Membership Operators:- 
+            in -> name = "Python" 
+                  print("P" in name)
+            not in -> numbers = [10 , 20 , 30]
+                      print(100 not in numbers)
