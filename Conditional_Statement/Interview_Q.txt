@@ -1,0 +1,18 @@
+Interview Questions
+
+    1. What is a conditional statement?
+        A conditional statement allows a program to make decisions based on whether a condition is True or False.
+
+    2. Difference between if and if...else?
+        if executes code only when the condition is True.
+        if...else always executes one of the two blocks.
+
+    3. Difference between if and elif?
+        if starts the decision-making process.
+        elif checks additional conditions only if previous conditions were False.
+
+    4. Why is indentation important in Python?
+        Indentation defines which statements belong to a code block. Without proper indentation, Python raises an IndentationError.
+
+    5. What is a nested if?
+        A nested if is an if statement placed inside another if statement.
