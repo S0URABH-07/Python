@@ -1,0 +1,26 @@
+Loops-->
+    What is a Loop?
+            A loop is used to execute a block of code repeatedly until a condition is met.
+        Why Do We Need Loops?
+            Loops help us:
+                Avoid writing duplicate code.
+                Process large amounts of data.
+                Automate repetitive tasks.
+                Solve programming problems efficiently.
+    
+    Types of Loops in Python
+        Python has two main loops:
+            for loop – Used when the number of iterations is known.
+            while loop – Used when the number of iterations is unknown.
+
+            for loop ->
+                Most for loops use range():-
+                    range(start, stop, step)
+            
+            while loop ->
+                A while loop runs as long as a condition is True
+
+Statement ->
+        break Statement ->>>> break immediately exits the loop
+        continue Statement ->>>> continue skips the current iteration and moves to the next one.
+        pass Statement ->>>> pass does nothing. It acts as a placeholder.
