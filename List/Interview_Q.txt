@@ -1,0 +1,17 @@
+Interview Questions
+    1. What is a list?
+            A list is an ordered, mutable collection that can store multiple values of different data types.
+
+    2. Difference between append() and extend()?
+            append() adds a single item.
+            extend() adds all items from another iterable.
+    
+    3. Difference between remove() and pop()?
+            remove(value) removes by value.
+            pop(index) removes by index and returns the removed item.
+            
+    4. Why are lists called mutable?
+            Because you can add, remove, or modify elements after the list is created.
+
+    5. What is list slicing?
+            List slicing extracts a portion of a list using the syntax:
