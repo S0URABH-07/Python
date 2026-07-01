@@ -1,0 +1,16 @@
+Interview Questions
+    1. What is a dictionary?
+        A dictionary is a mutable collection that stores data as key-value pairs.
+
+    2. Can dictionary keys be duplicated?
+        No. Keys must be unique.
+
+    3. Difference between [] and get()?
+        [] raises a KeyError if the key does not exist.
+        get() returns None (or a default value if provided).
+
+    4. Can dictionary values be duplicated?
+        Yes. Values can be duplicated.
+
+    5. Why are tuples allowed as keys but lists are not?
+        Because tuples are immutable and hashable, while lists are mutable and therefore cannot be used as dictionary keys.
