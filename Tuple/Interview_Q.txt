@@ -1,0 +1,18 @@
+Interview Questions
+    1. What is a tuple?
+        A tuple is an ordered, immutable collection that can store multiple values.
+
+    2. Difference between List and Tuple?
+        Lists are mutable.
+        Tuples are immutable.
+
+    3. Why are tuples faster?
+        Because they are immutable, Python can optimize their storage and access.
+
+    4. How many methods does a tuple have?
+        Only two:
+            count()
+            index()
+
+    5. Why would you use a tuple instead of a list?
+            Use a tuple when the data should not change, such as coordinates, dates, or configuration values.
