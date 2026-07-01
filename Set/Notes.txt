@@ -1,0 +1,39 @@
+What is a Set?
+        A Set is an unordered collection of unique elements.
+
+    set = {10,20,30,40,20}   o/p ->  10,20,30,40
+         
+            A set automatically removes duplicates.
+
+Adding Element:-
+    add() ->  fruits.add("Mango")
+
+    update() -> Add multiple values. 
+                a.update({3, 4})
+
+Removing Elements:-
+    remove() 
+            numbers.remove(20)
+
+    discard() -> No error occurs if the value is missing.
+            numbers.discard(100)
+
+    pop() ->  pop() removes a random element because sets are unordered.
+            removed = numbers.pop()
+
+    clear() -> remove all items
+
+
+            Union ( | ) -> combine all unique elements
+                    print(A | B)
+
+                    or
+
+                    print(A.union(B))
+
+            print(A & B) -> common elements
+                    print(A & B)
+
+                    or
+
+                    print(A.intersection(B))
