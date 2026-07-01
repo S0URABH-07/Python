@@ -1,0 +1,17 @@
+Interview Questions
+    1. What is a loop?
+            A loop repeatedly executes a block of code until a condition is no longer satisfied or all items in a sequence have been processed.
+
+    2. Difference between for and while?
+            for Loop	while Loop
+            Used when the number of iterations is known	Used when the number of iterations depends on a condition
+            Often used with sequences or range()	Runs until the condition becomes False
+            
+    3. What is the purpose of break?
+            It exits the loop immediately.
+
+    4. What is the purpose of continue?
+            It skips the current iteration and continues with the next one.
+
+    5. What is an infinite loop?   
+            A loop that never ends because its condition always remains True.
