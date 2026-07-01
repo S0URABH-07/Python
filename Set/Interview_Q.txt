@@ -1,0 +1,17 @@
+Interview Questions
+    1. What is a set?
+        A set is an unordered, mutable collection of unique elements.
+
+    2. Why are duplicates removed automatically?
+        Because sets store only unique values.
+
+    3. Difference between remove() and discard()?
+        remove() raises a KeyError if the item doesn't exist.
+        discard() does nothing if the item doesn't exist.
+
+    4. Why don't sets support indexing?
+        Because sets are unordered, so elements don't have fixed positions.
+
+    5. What is the difference between a set and a frozenset?    
+        set is mutable.
+        frozenset is immutable.
