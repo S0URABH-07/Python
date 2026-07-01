@@ -1,0 +1,17 @@
+Interview Questions
+    1. What is a function?
+        A function is a reusable block of code designed to perform a specific task.
+
+    2. Difference between a parameter and an argument?
+        Parameter: Variable in the function definition.
+        Argument: Actual value passed to the function.
+
+    3. Difference between print and return?
+        print() displays a value.
+        return sends a value back to the caller.
+
+    4. What is variable scope?
+        Scope defines where a variable can be accessed. Variables can be local or global.
+
+    5. What is recursion?
+        Recursion is when a function calls itself until a stopping condition is reached.
