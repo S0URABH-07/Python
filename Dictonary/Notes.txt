@@ -1,0 +1,65 @@
+What is a Dictionary?
+    A Dictionary stores data as key-value pairs.
+
+                    student = {
+                                "name": "Sourabh",
+                                "age": 22,
+                                "course": "Python",
+                                "cgpa": 8.75
+                            }
+
+        Duplicate Keys are not allowed
+        Indexing is not available in dictonary
+        Accessing value with the help of keys name
+                Using this you can access the value :-
+                        print(student.get("name"))
+
+    Adding new items:
+            student = {
+                    "name": "Sourabh"
+                }
+            student["age"] = 22
+            print(student)
+
+
+    pop() -> removing item
+
+    popitem() ->
+            Removes the last inserted key-value pair.
+
+
+    del student["name"]
+
+    clear()
+
+
+
+
+Methods :-
+        keys()
+            print(student.keys())      o/p ->>  dict_keys(['name', 'age'])
+
+        values()
+            print(student.values())    o/p ->>  dict_values(['Sourabh', 22])
+
+        items()
+            print(student.items())     o/p ->> dict_items([('name', 'Sourabh'), ('age', 22)])
+
+
+    Merge Dictionaries:-
+            dict1.update(dict2)
+
+    Copy Dictionary:-
+            new_student = student.copy()
+
+
+
+Dictionary Comprehension:- 
+            squares = {}
+            for i in range(1, 6):
+                squares[i] = i * i
+
+                or
+
+            squares = {i: i * i for i in range(1, 6)}
+            print(squares)                                o/p ->> {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
