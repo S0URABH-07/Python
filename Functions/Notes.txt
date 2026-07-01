@@ -1,0 +1,26 @@
+What is a Function?
+        A function is a reusable block of code that performs a specific task.
+        Instead of writing the same code again and again, you write it once inside a function and call it whenever you need it.
+    
+    Built-in Functions:- 
+    
+    User-Defined functions:-
+            You can create your own functions using the def keyword.
+
+
+    Function Execution Form:-
+            Program Starts
+                  │
+                  ▼
+            Function Defined
+                  │
+                  ▼
+            Function Called
+                  │
+                  ▼
+            Function Executes
+                  │
+                  ▼
+            Program Continues
+
+Lambda Function (Introduction):- A short anonymous function.
