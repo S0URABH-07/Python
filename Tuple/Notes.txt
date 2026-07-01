@@ -1,0 +1,15 @@
+What is a Tuple?
+        A Tuple is an ordered collection of items that cannot be changed after creation.
+
+    Same as list but tuple is immutable
+
+Why Use Tuples?
+    When data should never change.
+            Examples:
+                    Date of Birth
+                    GPS Coordinates
+                    RGB Colors
+                    Mathematical Constants
+
+    Only two methods:-
+            index or count
