@@ -59,3 +59,50 @@ Object-Oriented Programming :-
                                       /        \
                                      /          \
                               [ Child 1 ]    [ Child 2 ]
+
+    3. Polymorphism
+            What is Polymorphism?
+                One interface, many forms.
+                The same method name can behave differently depending on the object.
+
+            Method overriding-> Diffrent class but function name is same this is called overriding
+
+
+    4. Abstraction
+            What is Abstraction?
+                Abstraction means showing only essential features while hiding implementation details.
+                            Real-Life Example
+                                    When you drive a car:
+                                                You use:
+                                                    Steering
+                                                    Brake
+                                                    Accelerator
+                                                You don't need to know how the engine works internally.
+
+
+                        Static Method:
+                            A static method does not use self or cls.
+                                                class Calculator:
+                                                    @staticmethod
+                                                    def add(a, b):
+                                                        return a + b
+
+                        Class Method:-
+                            Uses cls instead of self.
+                                                class Student:
+                                                    school = "ABC"
+                                                    @classmethod
+                                                    def show_school(cls):
+                                                        print(cls.school)
+
+Important :-class variable or Instance variable
+                class variable make under the class 
+                        or
+                Instance variable make under the function
+
+                        Example :-
+                            class Student:
+                                school = "ABC"   # Class variable
+                                
+                                def __init__(self, name):
+                                    self.name = name   # Instance variable
