@@ -1,0 +1,20 @@
+Interview Questions
+    1. What is OOP?
+        A programming paradigm based on classes and objects.
+
+    2. What is a Class?
+        A blueprint used to create objects.
+
+    3. What is an Object?
+        An instance of a class.
+
+    4. What is self?
+        A reference to the current object.
+
+    5. What is a Constructor?
+        A special method (__init__) that runs automatically when an object is created.
+
+    6. Difference between Attribute and Method?
+        Attribute:-           	Method:-
+        Stores data         	Performs actions
+        Variable	            Function
