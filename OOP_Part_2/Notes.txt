@@ -1,0 +1,61 @@
+Object-Oriented Programming :-
+        │
+        ├── 1. Encapsulation
+        ├── 2. Inheritance
+        ├── 3. Polymorphism
+        └── 4. Abstraction
+
+    1. Encapsulation
+            What is Encapsulation?
+                Encapsulation means bundling data (attributes) and methods (functions) into a single unit (class) and controlling direct access to the data.
+
+                Real-Life Example
+                    Think of an ATM.
+                        You can:
+                            Deposit money
+                            Withdraw money
+                            Check balance
+                        But you cannot directly change your bank balance by opening the ATM.
+
+                                The balance is protected.
+
+            Private Variables:- 
+                private variable can be access only in class
+                    self.__balance
+                            Two underscores (__) make the variable private (name-mangled). It should only be accessed through class methods.
+
+            Protected Variable:-
+                Protected variable can be access only through derive class
+                    self._name
+
+            public variable :-
+                Public variable can be access whenever you want      
+
+
+    2. Inheritance
+            What is Inheritance?
+                Inheritance allows one class to reuse the properties and methods of another class.    
+                    Animal
+                        │
+                        ├── Dog
+                        ├── Cat
+                        └── Lion
+                
+                Types:-
+                    Multilevel:-
+                            Animal
+                               │
+                             Mammal
+                               │
+                             Dog
+
+                    Multiple:-
+                        Father      Mother
+                             \      /
+                              Child
+
+                    Hierarchical Inheritance:-
+                                    [ Parent Class ]
+                                      /        \
+                                     /          \
+                              [ Child 1 ]    [ Child 2 ]
