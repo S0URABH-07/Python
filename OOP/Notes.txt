@@ -1,0 +1,75 @@
+Object-Oriented Programming (OOP) :-
+
+    What is OOP?
+        OOP (Object-Oriented Programming) is a programming paradigm where we organize code using objects and classes.
+
+        Instead of writing everything in one file, we divide our program into small reusable objects.
+
+    Four pillers of oop :-
+        OOP
+            │
+            ├── Encapsulation
+            ├── Inheritance
+            ├── Polymorphism
+            └── Abstraction
+
+    Using OOP Code is Much cleaner and reusable.
+
+What is class ?? :-
+    A class is a blueprint for creating objects.
+            class Student:
+                                class -> keyword
+                                Student -> Class name
+
+What is an Object?? :-
+    An object is an instance of a class.
+            class Student:
+                pass                         student -> Class 
+            student1 = Student()             student1 -> Object
+            student2 = Student()             student2 -> Object
+
+                        Each object has its own data.
+
+        Attributes :- 
+            Attributes are variables inside an object.
+
+        Methods:-
+            Methods are functions inside a class.
+
+                What is self?   
+                    self refers to the current object.
+                            self refers to the current object, allowing each object to store and access its own data.
+                            self.name and self.age are instance attributes, unique to each Dog object created from the class.
+
+                Constructor (__init__) :-
+                         __init__() is a constructor method that runs automatically when a new object is created. It is used to initialize object data.
+                                    You don't call __init__() yourself.
+
+        Why use self.name = name 
+                    self.name = name is used to save a value passed into a class constructor into an object's permanent storage (attribute) so that other parts of the class can use it later
+
+
+            Instance Variables:-
+                Variables belonging to each object.
+                    self.name
+                    self.age
+                    self.salary
+                                Each object has its own copy.
+
+            Instance Methods:-
+                Methods using self.
+                    class Employee:
+                        def show(self):
+                            print("Employee")
+
+                                    delete object attribute:
+                                        del obj.name
+                                    
+                                    Delete object:
+                                        del obj
+
+        Class vs Object :---
+                    Class	                 Object
+                    Blueprint	                Real thing
+                    Created once	            Created many times
+                    No memory for data	        Stores actual data
