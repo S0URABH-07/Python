@@ -1,0 +1,20 @@
+Interview Questions
+    1. What are the four pillars of OOP?
+        Encapsulation
+        Inheritance
+        Polymorphism
+        Abstraction
+    2. What is inheritance?
+        Inheritance allows one class to acquire the properties and methods of another class.
+
+    3. What is method overriding?
+        Redefining a parent class method in a child class.
+
+    4. What is the purpose of super()?
+        It allows a child class to access methods and constructors of its parent class.
+
+    5. Difference between a static method and a class method?
+        Static Method	                Class Method
+        Uses @staticmethod	                Uses @classmethod
+        No self or cls	                    Receives cls
+        Doesn't access class state.	        Can access and modify class state
