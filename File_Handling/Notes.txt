@@ -1,0 +1,105 @@
+What is File Handling?
+    File Handling is the process of:
+            Reading data from a file
+            Writing data to a file
+            Updating a file
+            Deleting a file (using the os module)
+        Instead of storing data only in RAM (which disappears when the program ends), you can save it permanently.
+
+        With a file:-
+            Program Starts
+                    ↓
+                    Student = Sourabh
+                    ↓
+                    Save to File
+                    ↓
+                    Program Ends
+                    ↓
+                    Data Still Exists
+
+    Types of Files:-
+        1. Text Files (Notes.txt , data.csv)
+        2. Binary Files (photo.jpg , vdo.mp4 , song.mp3 , model.pkl)
+                Not Human Readable
+        
+
+                Opening a file :-
+                    Python uses the built-in open() function.
+                            Example:-
+                                file = open("filename.txt", "mode")   mode = read ,write,both ,only view
+
+
+                        File Models:-
+                                 Mode   |     Meaning                         
+                                 ------ | ----------------------------------- 
+                                 `"r"`  | Read                                
+                                 `"w"`  | Write (overwrites existing content) 
+                                 `"a"`  | Append                              
+                                 `"x"`  | Create a new file                   
+                                 `"rb"` | Read binary                         
+                                 `"wb"` | Write binary                        
+                                 `"r+"` | Read and write                      
+                                 `"a+"` | Append and read                     
+
+            Reading a File:-
+                    I have student.txt file that contains the data (Sourabh Rahul Aman)
+
+                    1. Read() ->
+                                file = open("student.txt","r")
+                                data = file.read()
+                                print(data)
+                                file.close()
+
+                    2. Reading Fixed Characters:-
+                                print(file.read(7)) # 7 is the starting indexing
+
+                    3. Reading one line:-
+                                line = file.readline()
+
+                    4. Reading all lines:-
+                                lines = file.readlines()
+
+
+            Writing a file:-
+                    Mode = "w"
+                        file = open("students.txt", "w")
+                        file.write("Sourabh")
+                        file.close()                    
+
+                            Important: "w" deletes all previous content before writing.
+
+                    Appending Data:-
+                        file = open("students.txt", "a")
+                        file.write("\nRahul")
+                        file.close()
+
+                    Closing File:-
+                            file.close()
+                    
+            Creating a New File:-
+                    file = open("newfile.txt", "x")
+                    file.close()
+                            If the file already exists, Python raises: FileExistError
+
+
+    Use With Keyword:-
+            with open("students.txt", "r") as file:
+                print(file.read())
+
+                            Advantages:
+                                Automatically closes the file
+                                Cleaner code
+                                Recommended in professional projects
+
+                Uses of Parameters:-
+                    tell() ->
+                        Returns the current pointer position.
+                            file.tell()
+
+                    Seek() ->
+                        Moves the pointer to a specified position.
+                            file.seek(0)
+
+                    Deleting a File:-
+                        Always check if the file exists before deleting it.
+                                os.remove("students.txt")                        
