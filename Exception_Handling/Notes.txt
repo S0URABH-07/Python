@@ -1,0 +1,130 @@
+What is an Exception?
+    An Exception is an error that occurs while a program is running (runtime).
+    Python immediately stops execution when it encounters an unhandled exception.
+
+What is Exception Handling?
+    Exception Handling means:
+        Handling runtime errors gracefully so the program continues running instead of crashing.
+
+   1. try block:- A try block contains code that might raise an exception
+        try:
+            risky code
+
+
+   2. except block :
+        try:
+            risky code
+        except:
+            handle error
+
+
+   3. else block : else runs only if no exception occurs.
+
+
+   4. finally block:- The finally block always executes, whether an exception occurs or not.
+            Without finally :- If an exception occurs before file.close(), the file remains open.
+        try:
+            # risky code
+        except:
+            # handle error
+        finally:
+            # always runs
+
+   5. raise Keyword:- Normally, Python raises exceptions automatically.
+        10 / 0 
+            Python raises :- ZeroDivisionError
+
+        But sometimes you want to raise an exception.
+            age = -5
+            if age < 0:
+                raise ValueError("Age cannot be negative")                    Output:- ValueError: Age cannot be negative
+
+
+    Why Does Python Jump to except?
+            Internally, Python does something like this:
+
+                     Execute try block
+                            ↓
+                          Error?
+                            ↓
+                           Yes
+                            ↓
+                 Find matching except block
+                            ↓
+                      Execute except
+                            ↓
+                     Continue program
+
+        Exception object.
+            It stores information about the error.
+                        Example:-
+                            try:
+                                print(10 / 0)
+                            except Exception as e:         // Gives access to the exception object
+                                print(e)                Output:-
+                                                            division by zero
+        
+
+        Common Exceptions:-
+            1. ZeroDivisionError
+                    10 / 0
+            
+            2. ValueError
+                    int("abc")
+            
+            3. NameError
+                    print(age)
+                    Variable doesn't exist.
+            
+            4. TypeError
+                    10 + "20"
+                    Cannot add an integer and a string.
+
+            5. IndexError
+                    numbers = [10,20]
+                    print(numbers[5])
+
+            6. KeyError
+                    student = {
+                        "name":"Sourabh"
+                        }
+                    print(student["age"])
+            
+            7. FileNotFoundError
+                    open("abc.txt")
+
+
+                    Exception execution flows:-
+                                        try
+                                         │
+                                  ┌──────┴──────┐
+                                  │             │
+                             No Exception   Exception
+                                  │             │
+                               else runs    except runs
+                                  │             │
+                                  └──────┬──────┘
+                                         │
+                                finally (if present)
+
+        
+    *** Exception Hierarchy:- 
+            All built-in exceptions inherit from the Exception class.
+
+            BaseException
+                    │
+                    ├── Exception
+                    │   ├── ValueError
+                    │   ├── TypeError
+                    │   ├── IndexError
+                    │   ├── KeyError
+                    │   ├── FileNotFoundError
+                    │   ├── ZeroDivisionError
+                    │   └── ...
+
+                                Example:-
+                                    try:
+                                        print(10 / 0)
+                                    except Exception as e:
+                                        print(e)
+                                                        Because ZeroDivisionError is a subclass of Exception.
