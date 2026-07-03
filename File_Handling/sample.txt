@@ -1,0 +1,5 @@
+Python is an amazing programming language.
+Python is easy to learn.
+File handling is important.
+This is a sample text file.
+Welcome to Python programming.
