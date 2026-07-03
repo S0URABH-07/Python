@@ -102,4 +102,17 @@ What is File Handling?
 
                     Deleting a File:-
                         Always check if the file exists before deleting it.
-                                os.remove("students.txt")                        
+                                os.remove("students.txt")        
+
+
+
+            Real World Example:-
+                    What You Learned
+                        Function                	Purpose
+                            open()                  	Opens a file
+                            read()                  	Reads the complete file
+                            readlines()             	Reads all lines into a list
+                            split()	                    Splits text into words
+                            len()	                    Counts lines, words, or characters
+                            with open()	                Automatically closes the file
+                            os.path.exists()           	Checks whether the file exists                
