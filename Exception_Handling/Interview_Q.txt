@@ -10,3 +10,19 @@ Interview Questions
 
     4. When does the else block execute?
         Only when the try block completes without raising any exceptions.
+
+    5. What is the purpose of finally?
+        It always executes, regardless of whether an exception occurs.
+
+    6. What is raise?
+        It allows you to deliberately generate an exception.
+
+    7. Why create custom exceptions?
+        To represent application-specific error conditions more clearly.
+
+    8. Difference between raise and except?
+        raise       	            except
+            Creates an exception	     Handles an exception
+
+    9. Why is Exception the parent of most exceptions?
+        It provides a common base class so related exceptions can be handled consistently.
