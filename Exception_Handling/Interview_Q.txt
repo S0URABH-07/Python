@@ -1,0 +1,12 @@
+Interview Questions
+    1. What is an exception?
+        An exception is a runtime error that interrupts the normal flow of a program.
+
+    2. What is the purpose of try?
+        To enclose code that might raise an exception.
+
+    3. Why is except Exception as e preferred over a bare except?
+        Because it provides information about the actual error, making debugging much easier.
+
+    4. When does the else block execute?
+        Only when the try block completes without raising any exceptions.
