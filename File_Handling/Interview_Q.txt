@@ -1,0 +1,21 @@
+Interview Questions
+    1. What is File Handling?
+        The process of reading, writing, updating, and managing files.
+
+    2. Difference between "w" and "a"?
+        "w"	"a"
+        Overwrites existing content	Adds data at the end
+        Creates file if missing	Creates file if missing
+
+    3. Why use with?
+        Because it automatically closes the file, even if an exception occurs.
+
+    4. Difference between read(), readline(), and readlines()?
+        Method	            Description
+        read()	            Reads the whole file (or a specified number of characters)
+        readline()	        Reads one line
+        readlines()	        Reads all lines into a list
+
+    5. What do seek() and tell() do?
+        seek(position)      moves the file pointer.
+        tell()              returns the current file pointer position.
