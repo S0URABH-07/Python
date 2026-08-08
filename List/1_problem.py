@@ -1,5 +1,4 @@
 marks=[]
-
 for i in range(5):
     mark=int(input("Enter Marks: "))
     marks.append(mark)
